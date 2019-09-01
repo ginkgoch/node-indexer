@@ -21,5 +21,9 @@
     "test": "./node_modules/.bin/jest",
     "clean": "rm -rf dist",
     "build": "rm -rf dist && ./node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "ginkgoch-map": "^1.3.7",
+    "yargs": "^14.0.0"
   }
 }
