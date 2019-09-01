@@ -1,6 +1,6 @@
 {
   "name": "ginkgoch-indexer-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a command line tool for building index for shapefiles.",
   "main": "./index.js",
   "types": "dist/index.d.ts",
