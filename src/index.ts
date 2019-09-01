@@ -1,9 +1,8 @@
-#! /usr/bin/env node
-
 import yargs from 'yargs';
 import { buildIndex } from "./commands/Build";
+import conf from '../package.json';
 
-function main() {
+export function main() {
     yargs.command('build', 
         'Build spatial index for a specific shapefile or all shapefiles in a folder',
         (args) => {
@@ -24,7 +23,5 @@ function main() {
             buildIndex(args);
         })
         .help('h', 'Show help')
-        .version('v', '1.0.0').argv;
+        .version('v', conf.version).argv;
 }
-
-main();

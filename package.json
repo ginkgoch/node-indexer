@@ -2,7 +2,7 @@
   "name": "ginkgoch-indexer-cli",
   "version": "1.0.1",
   "description": "This is a command line tool for building index for shapefiles.",
-  "main": "dist/bundle.js",
+  "main": "./index.js",
   "types": "dist/index.d.ts",
   "author": {
     "name": "Ginkgoch",
@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "bin": {
-    "ginkgoch-indexer": "./dist/bundle.js"
+    "ginkgoch-indexer": "./index.js"
   },
   "devDependencies": {
     "@types/jest": "^24.0.15",
