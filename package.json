@@ -1,11 +1,18 @@
 {
-  "name": "node-ts-template",
-  "version": "0.0.1",
-  "description": "This is a typescript library project template.",
+  "name": "ginkgoch-indexer-cli",
+  "version": "1.0.0",
+  "description": "This is a command line tool for building index for shapefiles.",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
-  "author": "Ginkgoch",
+  "author": {
+    "name": "Ginkgoch",
+    "email": "ginkgoch@outlook.com",
+    "url": "https://ginkgoch.com"
+  },
   "license": "MIT",
+  "bin": {
+    "ginkgoch-indexer": "./dist/bundle.js"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.8",

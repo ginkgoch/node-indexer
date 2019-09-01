@@ -20,7 +20,9 @@ function main() {
             });
         }, (args) => {
             buildIndex(args);
-        }).help('h', 'Show help').version('v', '1.0.0').argv;
+        })
+        .help('h', 'Show help')
+        .version('v', '1.0.0').argv;
 }
 
 main();
