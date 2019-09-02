@@ -96,7 +96,7 @@ function _buildIndexForFile(sourcePath: string, targetPath: string) {
             }
         }
 
-        console.log(`[Done] ${path.basename(sourcePath)} index build complete.`);
+        console.log(`[Done] ${path.basename(sourcePath)} index with ${index.count()} records build complete.`);
     }
     catch (ex) {
         console.log('[Error]', ex);
